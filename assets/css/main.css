@@ -33,6 +33,10 @@ body {
 	line-height: 1;
 }
 
+.icon fa-paper-plane {
+	background-image: url(https://i.ibb.co/YkpGxRh/Screen-Shot-2022-03-23-at-1-14-33-AM.png);
+}
+
 #profilepic {
 	height: 300px;
 	width: 300px;
