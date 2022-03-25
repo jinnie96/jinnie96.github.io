@@ -33,6 +33,13 @@ body {
 	line-height: 1;
 }
 
+.links {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-end;
+}
+
 .icon fa-paper-plane {
 	background-image: url(https://i.ibb.co/YkpGxRh/Screen-Shot-2022-03-23-at-1-14-33-AM.png);
 }
@@ -2553,9 +2560,9 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		-moz-flex-wrap: wrap;
-		-webkit-flex-wrap: wrap;
+		/* -webkit-flex-wrap: wrap; */
 		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
+		/* flex-wrap: wrap; */
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
@@ -3981,10 +3988,11 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
+		background-image: url(https://www.theappsense.com/wp-content/uploads/2017/05/portfolio.jpg);
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
