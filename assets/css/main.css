@@ -33,6 +33,10 @@ body {
 	line-height: 1;
 }
 
+#first {
+	width:fit-content;
+}
+
 .links {
 	margin-top: 100px;
 	display: flex;
@@ -177,7 +181,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 2em 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3003,6 +3007,15 @@ input, select, textarea {
 			background-color: #2e3842;
 		}
 
+		#five, .wrapper.style9 {
+			background-color: black;
+			color:white;
+		}
+
+		.major > h2 {
+			color: white;
+		}
+
 		.wrapper.style3 {
 			background-color: #505393;
 			color: #d3d4e4;
@@ -3918,7 +3931,7 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
-			#footer .icons a {
+			#footer .icons a, #footer .icons p {
 				color: rgba(255, 255, 255, 0.5);
 			}
 
