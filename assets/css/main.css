@@ -33,6 +33,10 @@ body {
 	line-height: 1;
 }
 
+#resumeLink {
+	font-weight: bold;
+}
+
 #first {
 	width:fit-content;
 }
