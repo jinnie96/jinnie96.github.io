@@ -48,6 +48,15 @@ body {
 	align-self: flex-end;
 }
 
+/* .amazonLinks {
+	display: flex;
+	justify-content: space-between;
+} */
+
+#amznLive, #instaLive, #rtgLive {
+	margin-left: 30px;
+}
+
 .icon fa-paper-plane {
 	background-image: url(https://i.ibb.co/YkpGxRh/Screen-Shot-2022-03-23-at-1-14-33-AM.png);
 }
